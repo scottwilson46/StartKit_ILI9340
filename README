@@ -1,0 +1,14 @@
+Graphics Library for using ILI9340 display with a StartKit.
+
+The pins used for SPI, etc are configurable in spi.h and tell the code which of the bits from XS1_PORT_32A are used:
+
+DATAPOS: MOSI
+CLKPOS:  SCK
+RSPOS:   D/C
+CSPOS:   LCD SC
+RSTPOS:  RESET
+BLPOS:   BACKLIGHT
+VDDPOS:  VIN
+
+Can draw circles, lines, filled rectangles and individual pixels for the moment.
+
